@@ -142,6 +142,7 @@ body{
 /* todo list*/
 
 .todolist{
+    Padding:100px;
     position: relative;
     background: #161623;
     min-height: 100vh;
