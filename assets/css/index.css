@@ -151,6 +151,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family:sans-serif;
+    z-index: 99999;
 
 }
 .todolist::before{
