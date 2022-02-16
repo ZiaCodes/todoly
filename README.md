@@ -4,4 +4,4 @@
 
 ### Demo : https://todoly1.netlify.app/
 
-<img src = "https://todoly1.netlify.app/assets/img/ogsite.png" width="80%"/>
+<img src = "https://todoly1.netlify.app/img/ogsite.png" width="80%"/>
