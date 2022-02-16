@@ -17,6 +17,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.18);
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.164);
     position: fixed;
     z-index: 999999999;
 }
@@ -265,11 +266,13 @@ body{
 }
 
 .ftr{
-    background-color: #ff0156c9;
+    background-color: rgba(0, 0, 0, 0.18);
+    border-top: 0.1px solid rgba(255, 255, 255, 0.164);
     position: sticky;
+    bottom: 0;
     z-index: 9999999999;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 100%;
