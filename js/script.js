@@ -53,7 +53,7 @@ function ShowLists() {
                     <div class="content">
                     <h2  class="rank"><small><i onclick="deleteList(${index})" class="fa-solid fa-trash"></i></small></h2>
                     <h4>${element}</h4>
-                    <p style="color:#ff0156c9"></p>
+                    <p style="color:#000">Item No.${index+1}</p>
                     </div>
                 </div>
         `;
