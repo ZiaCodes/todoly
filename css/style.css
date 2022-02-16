@@ -263,3 +263,19 @@ body{
     color: #333;
 
 }
+
+.ftr{
+    background-color: #ff0156c9;
+    position: sticky;
+    z-index: 9999999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+.ftr p{
+    font-size: 25px;
+    color: #fff;
+}
