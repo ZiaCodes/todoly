@@ -15,6 +15,12 @@
 
     <!-- Fontawsome icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- pdf.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/download.js"></script>
+
     <!--PWA -->
     <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
     <link rel="manifest" href="manifest.json">
@@ -36,6 +42,7 @@
             <p>Clear All</p>
         </div>
     </header>
+
     <section class="container">
         <div class="heading-text">
             <p>TODO List with TODOLY</p>
@@ -45,16 +52,17 @@
             <button id="input-btn">ADD</button>
         </div>
     </section>
+
     <section class="todolist" id="list-todo">
-   
-        <div class="box">
+        <div class="box" id="box">
         </div>
     </section>
     <section class="ftr">
-        <p id="download"><i class="fa-solid fa-download"></i></p>
+        <p id="download"><i onclick="generatePDF()" class="fa-solid fa-download"></i></p>
         <a href="#list-todo"><p><span class="task">0</span><i class="fa-solid fa-clipboard-list"></i></p></a>
-        
     </section>
+
+
     <script>
         if('serviceWorker' in navigator){
             window.addEventListener('load', () => {
@@ -64,7 +72,7 @@
     </script>
     
     <script src="js/script.js"></script>
-    <script src="js/typing.js"></script>
+    
     <!-- <script src="js/contact-picker.js"></script> -->
     <!-- <script src="js/idle-detector.js"></script> -->
 

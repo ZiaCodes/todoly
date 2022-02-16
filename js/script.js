@@ -79,3 +79,6 @@ deleteAll.onclick = () =>{
 
 }
 
+
+
+
