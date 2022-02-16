@@ -2,9 +2,7 @@ const inputBox = document.querySelector(".inputfield input");
 const addBtn = document.querySelector(".inputfield button");
 const todoList = document.querySelector(".todolist .box");
 const deleteAll = document.querySelector(".btn");
-
-
-
+const shareBtn = document.querySelector('.share');
 
 
 inputBox.onkeyup = () =>{
@@ -38,8 +36,10 @@ function ShowLists() {
     }else{
         listArr = JSON.parse(storeData);
     }
-    const pendingTask = document.querySelector(".pending");
-    pendingTask.textContent = listArr.length;
+    // const pendingTask = document.querySelector(".pending");
+    const taskNum = document.querySelector(".task");
+    // pendingTask.textContent = listArr.length;
+    taskNum.textContent = listArr.length;
     if(listArr.length >0) deleteAll.classList.add("active");
     else deleteAll.classList.remove("active");
     let newParaTag = '';
@@ -78,3 +78,4 @@ deleteAll.onclick = () =>{
     ShowLists();
 
 }
+

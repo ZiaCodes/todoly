@@ -10,7 +10,7 @@
     <meta property="og:site_name" content="Todoly" />
     <meta property="og:title" content="Todoly" />
     <meta property="og:description" content="Todoly is a light weight todo maker application for day to day life."/>
-    <meta property="og:image" content="https://todoly1.netlify.app/img/ogsite.png" />
+    <meta property="og:image" content="https://todoly1.netlify.app/img/logo/logo.png" />
     <meta property="og:url" content="https://todoly1.netlify.app/" />
 
     <!-- Fontawsome icons-->
@@ -38,21 +38,22 @@
     </header>
     <section class="container">
         <div class="heading-text">
-            <p>You have <span class="pending">0</span> task pending till now.</p>
+            <p>TODO List with TODOLY</p>
         </div>
         <div class="inputfield">
             <input type="text" id="input-box" placeholder="Type here.." required>
             <button id="input-btn">ADD</button>
         </div>
     </section>
-    <section class="todolist">
+    <section class="todolist" id="list-todo">
+   
         <div class="box">
         </div>
     </section>
     <section class="ftr">
-        <p id="contacts"><i class="fa-solid fa-share-nodes"></i></p>
-        <p id="contacts"><i class="fa-solid fa-bell"></i></p>
         <p id="download"><i class="fa-solid fa-download"></i></p>
+        <a href="#list-todo"><p><span class="task">0</span><i class="fa-solid fa-clipboard-list"></i></p></a>
+        
     </section>
     <script>
         if('serviceWorker' in navigator){
@@ -63,6 +64,9 @@
     </script>
     
     <script src="js/script.js"></script>
-    <script src="js/contact-picker.js"></script>
+    <script src="js/typing.js"></script>
+    <!-- <script src="js/contact-picker.js"></script> -->
+    <!-- <script src="js/idle-detector.js"></script> -->
+
 </body>
 </html> 
