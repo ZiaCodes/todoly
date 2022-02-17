@@ -1,6 +1,30 @@
 {
     "name": "Todoly",
     "short_name": "Todoly",
+    "categories": [
+      "social",
+      "news",
+      "magazines"
+      ],
+      "description": "Make a todo list , delete your completed task, track your task and many more with TODOLY.",
+      "display": "standalone",
+      "screenshots": [
+      {
+      "src": "https://todoly1.netlify.app/img/todoly-lite.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
+      {
+      "src": "https://todoly1.netlify.app/img/todoly-lite-market.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
+      {
+      "src": "https://todoly1.netlify.app/img/todoly-lite-download.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      }
+      ],
     "share_target":{
       "action":"/share-todo",
       "method":"POST",
@@ -54,9 +78,12 @@
       }
     ],
     "start_url": "/?home=true",
-    "display": "fullscreen",
     "orientation": "portrait",
     "theme_color": "#ff0157",
     "id":"/?home=true",
-    "background_color": "#161623"
+    "background_color": "#161623",
+    "launch_handler": {
+      "route_to": "existing-client",
+      "navigate_existing_client": "never"
+    }
   }
