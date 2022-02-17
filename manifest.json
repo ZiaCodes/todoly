@@ -47,7 +47,10 @@
         "short_name": "Feed",
         "description": "View your created todo lists",
         "url": "/?utm_source=homescreen",
-        "icons": [{"src":"https://todoly1.netlify.app/icons/feed.png","sizes":"16x16"}]
+        "icons": [{"src":"https://todoly1.netlify.app/icons/feed.png",
+          "type": "image/png",
+          "sizes": "192x192"
+}]
 
       },
       {
@@ -55,7 +58,10 @@
         "short_name": "Create",
         "description": "View your created todo lists",
         "url": "/?utm_source=homescreen",
-        "icons": [{"src":"https://todoly1.netlify.app/icons/edit.png","sizes":"16x16"}]
+        "icons": [{"src":"https://todoly1.netlify.app/icons/edit.png",
+          "type": "image/png",
+          "sizes": "192x192"
+}]
 
       }
     ],
