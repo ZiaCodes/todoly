@@ -103,7 +103,7 @@
     ],
     "start_url": "/?home=true",
     "orientation": "portrait",
-    "theme_color": "#ff0157",
+    "theme_color": "#161623",
     "id":"/?home=true",
     "background_color": "#161623",
     "launch_handler": {
