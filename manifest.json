@@ -10,17 +10,27 @@
       "display": "standalone",
       "screenshots": [
       {
+      "src": "https://todoly1.netlify.app/img/todoly-lite-download.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
+      {
       "src": "https://todoly1.netlify.app/img/todoly-lite.png",
       "sizes": "586x1041",
       "type": "image/png"
       },
       {
-      "src": "https://todoly1.netlify.app/img/todoly-lite-market.png",
+      "src": "https://todoly1.netlify.app/img/todoly-track.png",
       "sizes": "586x1041",
       "type": "image/png"
       },
       {
-      "src": "https://todoly1.netlify.app/img/todoly-lite-download.png",
+      "src": "https://todoly1.netlify.app/img/todoly-share.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
+      {
+      "src": "https://todoly1.netlify.app/img/todoly-pdf.png",
       "sizes": "586x1041",
       "type": "image/png"
       }
