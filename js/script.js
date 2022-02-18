@@ -29,6 +29,14 @@ addBtn.onclick = () =>{
     ShowLists();
 }
 
+//Trigger Add btn when hitting enter
+inputBox.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+     event.preventDefault();
+     document.getElementById("input-btn").click();
+    }
+  })
+
 function ShowLists() {
     let storeData = localStorage.getItem("New List");
     if(storeData==null){
