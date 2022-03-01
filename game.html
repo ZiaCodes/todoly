@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="TODOLY" />
+    <meta name="description" content="Make your life easier , use todoly to manage your daily day to day task.todoly has a beautiful and best user interface."/>
+    <meta name="keywords" content="Todoly,TodoList, work, task, make list" />
+    <meta property="og:site_name" content="Todoly" />
+    <meta property="og:title" content="Todoly" />
+    <meta property="og:description" content="Todoly is a light weight todo maker application for day to day life."/>
+    <meta property="og:image" content="https://todoly1.netlify.app/img/logo/logo.png" />
+    <meta property="og:url" content="https://todoly1.netlify.app/" />
+
+    <!--PWA -->
+    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#161623">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <title>TODOLY | Play Game</title>
+
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Denk+One'>
+  <link rel="stylesheet" href="./css/game.css">
+
+</head>
+<body>
+  <header class="navigation">
+    <div class="logo">
+        <img src="https://todoly1.netlify.app/img/logo/logo.png" width="150px" alt="logo">
+    </div>
+    <div class="btn content" id="player">
+      <button style="font-family: Rubik;" class="btn">Play music</button>
+    </div>
+  </header>
+
+  <script>
+    if('serviceWorker' in navigator){
+        window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js');
+    });
+    }
+</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js'></script>
+<script src='https://threejs.org/examples/js/loaders/OBJLoader.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js'></script>
+<script  src="./js/game.js"></script>
+
+</body>
+</html>
