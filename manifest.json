@@ -6,9 +6,19 @@
       "news",
       "magazines"
       ],
-      "description": "Make a todo list , delete your completed task, track your task and many more with TODOLY.",
+      "description": "Make a todo list , Listen Music and play games.",
       "display": "standalone",
       "screenshots": [
+      {
+      "src": "https://todoly1.netlify.app/img/music.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
+      {
+      "src": "https://todoly1.netlify.app/img/game.png",
+      "sizes": "586x1041",
+      "type": "image/png"
+      },
       {
       "src": "https://todoly1.netlify.app/img/todoly-lite-download.png",
       "sizes": "586x1041",
@@ -53,25 +63,27 @@
     },
     "shortcuts":[
       {
-        "name":"Activity",
-        "short_name": "Feed",
-        "description": "View your created todo lists",
+        "name":"Game",
+        "short_name": "Game",
+        "description": "play a game",
         "url": "/?utm_source=homescreen",
         "icons": [{"src":"https://todoly1.netlify.app/icons/feed.png",
           "type": "image/png",
           "sizes": "192x192"
-}]
+      }
+]
 
       },
       {
-        "name":"Create Todo",
-        "short_name": "Create",
-        "description": "View your created todo lists",
+        "name":"Music",
+        "short_name": "music",
+        "description": "Listen music",
         "url": "/?utm_source=homescreen",
         "icons": [{"src":"https://todoly1.netlify.app/icons/edit.png",
           "type": "image/png",
           "sizes": "192x192"
-}]
+      }
+]
 
       }
     ],
