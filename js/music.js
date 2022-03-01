@@ -87,6 +87,94 @@ new Vue({
             source: "https://github.com/ZiaCodes/imge-container/raw/main/music/9.mp3",
             url: "https://www.youtube.com/watch?v=qdsTUfDTEhQ",
             favorited: false
+          },
+          {
+            name: "End Game",
+            artist: "Taylor Swift ft. Ed Sheeran",
+            cover: "https://images.genius.com/d6eba083b40fcec8b16ab1b4489fe057.1000x1000x1.png",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/10.mp3",
+            url: "https://www.youtube.com/watch?v=dfnCAmr569k",
+            favorited: false
+          },
+          {
+            name: "Sweet but Psycho",
+            artist: "Ava Max",
+            cover: "https://i1.sndcdn.com/artworks-000563995928-ysk5x2-t500x500.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/11.mp3",
+            url: "https://www.youtube.com/watch?v=WXBHCQYxwr0",
+            favorited: false
+          },
+          {
+            name: "let her go",
+            artist: "Passanger",
+            cover: "https://lyricsservice.com/wp-content/uploads/2021/05/Let-Her-Go-Lyrics-Passenger.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/12.mp3",
+            url: "https://www.youtube.com/watch?v=RBumgq5yVrA",
+            favorited: false
+          },
+          {
+            name: "Symphony",
+            artist: "Clean Bandit ft. Zara Larsson",
+            cover: "https://www.cevirce.com/en/translate/wp-content/uploads/2021/05/clean-bandit-feat.-zara-larsson-symphony-lyrics-1.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/13.mp3",
+            url: "https://www.youtube.com/watch?v=aatr_2MstrI",
+            favorited: false
+          },
+          {
+            name: "Lush Life",
+            artist: "Zara Larsson",
+            cover: "https://s.mxmcdn.net/images-storage/albums4/6/9/1/7/2/3/34327196_800_800.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/14.mp3",
+            url: "https://www.youtube.com/watch?v=tD4HCZe-tew",
+            favorited: false
+          },
+          {
+            name: "Ain't My Fault",
+            artist: "Zara Larsson",
+            cover: "https://m.media-amazon.com/images/M/MV5BODM0NWQ3ZTQtMjZlNC00YmM1LWIwN2EtYmQ3ZDgzNjU5MWUwXkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/15.mp3",
+            url: "https://www.youtube.com/watch?v=eC-F_VZ2T1c",
+            favorited: false
+          },
+          {
+            name: "lovely",
+            artist: "Billie Eilish, Khalid",
+            cover: "https://i1.sndcdn.com/artworks-000601496665-j6jmfd-t500x500.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/16.mp3",
+            url: "https://www.youtube.com/watch?v=V1Pl8CzNzCw",
+            favorited: false
+          },
+          {
+            name: "Same Old Love",
+            artist: "Selena Gomez",
+            cover: "https://a3-images.myspacecdn.com/images04/6/3da892b19c794bd9ab330798272541bd/600x600.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/17.mp3",
+            url: "https://www.youtube.com/watch?v=9h30Bx4Klxg",
+            favorited: false
+          },
+          {
+            name: "Scared To Be Lonely ",
+            artist: "Martin Garrix & Dua Lipa",
+            cover: "https://i1.sndcdn.com/artworks-000237422778-zflh0p-t500x500.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/18.mp3",
+            url: "https://www.youtube.com/watch?v=e2vBLd5Egnk",
+            favorited: false
+          },
+          {
+            name: "Positions ",
+            artist: "Ariana Grande",
+            cover: "https://pics.filmaffinity.com/Ariana_Grande_Positions_Music_Video-836341494-large.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/19.mp3",
+            url: "https://youtu.be/tcYodQoapMg",
+            favorited: false
+          },
+          {
+            name: "Ciao Adios",
+            artist: "Anne-Marie",
+            cover: "https://lineimg.omusic.com.tw/img/album/1314872.jpg?v=20210605113218",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/20.mp3",
+            url: "https://www.youtube.com/watch?v=qqob4D3BoZc",
+            favorited: false
           }
         ],
         currentTrack: null,
