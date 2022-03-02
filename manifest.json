@@ -66,7 +66,7 @@
         "name":"Game",
         "short_name": "Game",
         "description": "play a game",
-        "url": "/?utm_source=homescreen",
+        "url": "/game?utm_source=jumplist&utm_medium=shortcut",
         "icons": [{"src":"https://todoly1.netlify.app/icons/feed.png",
           "type": "image/png",
           "sizes": "192x192"
@@ -78,7 +78,7 @@
         "name":"Music",
         "short_name": "music",
         "description": "Listen music",
-        "url": "/?utm_source=homescreen",
+        "url": "/music?utm_source=jumplist&utm_medium=shortcut",
         "icons": [{"src":"https://todoly1.netlify.app/icons/edit.png",
           "type": "image/png",
           "sizes": "192x192"
