@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="TODOLY" />
+    <meta name="description" content="Make your life easier , use todoly to manage your daily day to day task.todoly has a beautiful and best user interface."/>
+    <meta name="keywords" content="Todoly,TodoList, work, task, make list" />
+    <meta property="og:site_name" content="Todoly" />
+    <meta property="og:title" content="Todoly" />
+    <meta property="og:description" content="Todoly is a light weight todo maker application for day to day life."/>
+    <meta property="og:image" content="https://todoly1.netlify.app/img/logo/logo.png" />
+    <meta property="og:url" content="https://todoly1.netlify.app/" />
+
+	<link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#161623">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <title>TODOLY | Voice Assistance</title>
+
+    <!-- Fontawsome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="./css/robot.css">
+
+</head>
+<body>
+<header class="navigation">
+	<div class="logo">
+		<img src="https://todoly1.netlify.app/img/logo/logo.png" width="150px" alt="logo">
+	</div>
+	<div>
+	<h1 style="margin-right: 8px;">12:50</h1>
+	</div>
+</header>
+
+<section class="box">
+	<div class="frame">
+		<input type="checkbox" id="check" class="check"> 
+		<label for="check" class="loader">
+			<svg class="talk" width="120px" height="120px" viewBox="0 0 120 120">
+				<circle class="circle" cx="60" cy="60" r="58"/>
+			</svg>
+			<div class="microphone">
+				<div class="body">
+					<div class="inner"></div>
+					<div class="inner"></div>
+					<div class="inner"></div>
+				</div>
+				<div class="stem"></div>
+				<div class="base"></div>
+			</div>
+			<div class="dots">
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+			</div>
+	  </div>
+	</label>
+	<div style="position: absolute; margin-top: 260px;">
+		<p style="text-align: center; padding: 5px;margin: 2px;" class="content">Hey, I am lucy 
+		<br>You can start by asking about yourself !</p>
+	</div>
+	</div>
+</section>
+
+<section class="ftr">
+	<a href="index"><p><i class="fa-solid fa-clipboard-list"></i></p></a>
+	<p><i style="color: #e91e63;" class="fa-solid fa-robot talk"></i></p>
+	<a href="music"><p><i class="fa-solid fa-music"></i></p></a>
+	<a href="game"><p><i class="fa-solid fa-gamepad"></i></p></a>
+</section>
+
+<script>
+    if('serviceWorker' in navigator){
+        window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js');
+    });
+    }
+</script>
+<script src="./js/robot.js"></script>
+<script src='https://100dayscss.com/codepen/js/jquery.min.js'></script>
+</body>
+</html>
