@@ -106,7 +106,7 @@ function readOutLoud(message) {
 
 //For Greeting
 
-    if (message.includes('how are you' || 'What are you doing')) {
+    if (message.includes('how are you')) {
        const finalText = 
                 greetings[Math.floor(Math.random() * greetings.length)];
        speech.text = finalText;
@@ -126,7 +126,7 @@ if (message.includes('weather')) {
 
 //Identity of the Assistance
 
-if (message.includes('who you are' || 'identity')) {
+if (message.includes('who you are')) {
     const finalText = 
              identity[Math.floor(Math.random() * identity.length)];
     speech.text = finalText;
@@ -150,7 +150,7 @@ if (message.includes('who you are' || 'identity')) {
     speech.text = finalText; 
  }
 
- if (message.includes('God is real' || 'god')) {
+ if (message.includes('God is real')) {
     const finalText = 
             god[Math.floor(Math.random() * god.length)];
     speech.text = finalText; 
@@ -165,41 +165,30 @@ if (message.includes('magic')) {
 
 
  //RAkesh
- if(message.includes('rakesh' || 'Rakes')){
+ if(message.includes('rakesh')){
      const finalText = 
      Rakesh[Math.floor(Math.random()* Rakesh.length)];
      speech.text = finalText;
  }
 
  //sanjay
- if(message.includes('sanjay' || 'sanjaye')){
+ if(message.includes('sanjay')){
      const finalText = 
      sanjay[Math.floor(Math.random()* sanjay.length)];
      speech.text = finalText;
  }
  //subhash
- 
- if(message.includes('subhash'||'subhas'||'subas')){
+
+ if(message.includes('subhash')){
      const finalText = 
      Subhash[Math.floor(Math.random()* Subhash.length)];
      speech.text = finalText;
  }
 
-
-
-
-
-// ######################## Speech Settings ######################
-
     speech.volume = 2;
     speech.rate = 0.8;
     speech.pitch = 1;
 
-// ###############################################################
-
-
-
     window.speechSynthesis.speak(speech);
-
-    
+  
 }
