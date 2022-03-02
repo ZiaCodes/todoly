@@ -50,7 +50,7 @@ const identity = [
 ];
 
 //Rakesh
-const Rakesh = [
+const rakesh = [
     'Hello rakesh,I am lucy!',
     'Rakesh is a masculine given name of Indian origin. It is derived from the Sanskrit language.',
     'Jada gand na fulao Gand tod denge tumhari',
@@ -67,7 +67,7 @@ const sanjay = [
 ]
 
 //subhash
-const Subhash = [
+const subhash = [
     'Hello Subhash,I am lucy!',
     'Name Subhash in the Indian origin, means Soft spoken; Eloquent. Name Subhash is of Indian origin and is a Boy name. People with name Subhash are usually Hindu by religion.',
     'ho gaya tera ? Ab gand mara bosdike',
@@ -134,15 +134,6 @@ if (message.includes('who you are')) {
      
  }
 
- //reveal
- if (message.includes('lucy')) {
-    const finalText = 
-             reveal[Math.floor(Math.random() * reveal.length)];
-    speech.text = finalText;
-     
- }
-
-
  //God vs science
  if (message.includes('who created this world')) {
     const finalText = 
@@ -167,7 +158,7 @@ if (message.includes('magic')) {
  //RAkesh
  if(message.includes('rakesh')){
      const finalText = 
-     Rakesh[Math.floor(Math.random()* Rakesh.length)];
+     rakesh[Math.floor(Math.random()* rakesh.length)];
      speech.text = finalText;
  }
 
@@ -181,7 +172,7 @@ if (message.includes('magic')) {
 
  if(message.includes('subhash')){
      const finalText = 
-     Subhash[Math.floor(Math.random()* Subhash.length)];
+     subhash[Math.floor(Math.random()* subhash.length)];
      speech.text = finalText;
  }
 
