@@ -22,7 +22,7 @@ body {
   position: fixed;
   z-index: 999999999;
 }
-.navigation .btn{
+.navigation .btn-1{
   color: #fff;
   background-color: #ff0157;
   width: 6rem;
@@ -35,11 +35,11 @@ body {
   cursor: pointer;
   opacity: 1;
 }
-.navigation .btn:hover{
+.navigation .btn-1:hover{
   background-color: #ff0156;
   transform: scale(1.02);
 }
-.navigation .btn p{
+.navigation .btn-1 p{
   color: #fff;
 }
 
