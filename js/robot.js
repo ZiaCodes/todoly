@@ -49,6 +49,33 @@ const identity = [
 
 ];
 
+//Rakesh
+const Rakesh = [
+    'Hello rakesh,I am lucy!',
+    'Rakesh is a masculine given name of Indian origin. It is derived from the Sanskrit language.',
+    'Jada gand na fulao Gand tod denge tumhari',
+    'Rakesh is a piece of shit',
+]
+
+//sanjay
+const sanjay = [
+    'Hello Sanjay,I am lucy!',
+    'The name Sanjay is primarily a male name of Indian origin that means Victory Victory in battle or victory over judging self. A form of the name Sanjaya.',
+    'ho gaya tera ? Ab gand mara bosdike',
+    'Tum Chutiya ho ',
+    'HAhHAhahahHAhahaHAhahaahhaahahahahhahah'
+]
+
+//subhash
+const Subhash = [
+    'Hello Subhash,I am lucy!',
+    'Name Subhash in the Indian origin, means Soft spoken; Eloquent. Name Subhash is of Indian origin and is a Boy name. People with name Subhash are usually Hindu by religion.',
+    'ho gaya tera ? Ab gand mara bosdike',
+    'Tum Chutiya ho ',
+    'Are kyu paka raha hai ?? padh le Bosdike'
+]
+
+
 
 const SpeechRecognition = window.SpeecgRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
@@ -75,11 +102,11 @@ btn.addEventListener('click', () =>{
 function readOutLoud(message) {
     const speech = new SpeechSynthesisUtterance();
 
-    speech.text = 'Please try again';
+    speech.text = 'Sorry, Your English is so bad, I am not getting you! ';
 
 //For Greeting
 
-    if (message.includes('how are you')) {
+    if (message.includes('how are you' || 'What are you doing')) {
        const finalText = 
                 greetings[Math.floor(Math.random() * greetings.length)];
        speech.text = finalText;
@@ -93,14 +120,13 @@ if (message.includes('weather')) {
     const finalText = 
              weather[Math.floor(Math.random() * weather.length)];
     speech.text = finalText;
-
      
  }
 
 
 //Identity of the Assistance
 
-if (message.includes('who you are')) {
+if (message.includes('who you are' || 'identity')) {
     const finalText = 
              identity[Math.floor(Math.random() * identity.length)];
     speech.text = finalText;
@@ -109,11 +135,10 @@ if (message.includes('who you are')) {
  }
 
  //reveal
- if (message.includes('what')) {
+ if (message.includes('lucy')) {
     const finalText = 
              reveal[Math.floor(Math.random() * reveal.length)];
     speech.text = finalText;
-
      
  }
 
@@ -125,7 +150,7 @@ if (message.includes('who you are')) {
     speech.text = finalText; 
  }
 
- if (message.includes('God is real')) {
+ if (message.includes('God is real' || 'god')) {
     const finalText = 
             god[Math.floor(Math.random() * god.length)];
     speech.text = finalText; 
@@ -136,6 +161,28 @@ if (message.includes('magic')) {
     const finalText = 
     magic[Math.floor(Math.random() * magic.length)];
     speech.text = finalText;     
+ }
+
+
+ //RAkesh
+ if(message.includes('rakesh' || 'Rakes')){
+     const finalText = 
+     Rakesh[Math.floor(Math.random()* Rakesh.length)];
+     speech.text = finalText;
+ }
+
+ //sanjay
+ if(message.includes('sanjay' || 'sanjaye')){
+     const finalText = 
+     sanjay[Math.floor(Math.random()* sanjay.length)];
+     speech.text = finalText;
+ }
+ //subhash
+ 
+ if(message.includes('subhash'||'subhas'||'subas')){
+     const finalText = 
+     Subhash[Math.floor(Math.random()* Subhash.length)];
+     speech.text = finalText;
  }
 
 
