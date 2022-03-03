@@ -57,7 +57,7 @@ const identity = [
         'Im your personal assistance',
         'My name is Lucy Im virtual Voice assistance  I have no father and mother I was Created in 30th june 2020 by Ziaxdev and My only work is to help you and assist you as better as good',
         'Lucy is my name and I am your assistance',
-        'Who is me? ummm I am Lucy a virtual personal Assistance that can make your experiance better',
+        'Who is me? ummm I am Lucy a virtual personal Assistance that can make your experiance better'
         
 
 ];
@@ -67,8 +67,8 @@ const rakesh = [
     'Hello rakesh,I am lucy!',
     'Rakesh is a masculine given name of Indian origin. It is derived from the Sanskrit language.',
     'Jada gand na fulao Gand tod denge tumhari',
-    'Rakesh is a piece of shit',
-]
+    'Rakesh is a piece of shit'
+];
 
 //sanjay
 const sanjay = [
@@ -77,7 +77,7 @@ const sanjay = [
     'ho gaya tera ? Ab gand mara bosdike',
     'Tum Chutiya ho ',
     'HAhHAhahahHAhahaHAhahaahhaahahahahhahah'
-]
+];
 
 //subhash
 const subhash = [
@@ -86,7 +86,7 @@ const subhash = [
     'ho gaya tera ? Ab gand mara bosdike',
     'Tum Chutiya ho ',
     'Are kyu paka raha hai ?? padh le Bosdike'
-]
+];
 
 
 
@@ -139,7 +139,7 @@ if (message.includes('weather')) {
 
 //Identity of the Assistance
 
-if (message.includes('who you are')) {
+if (message.includes('who are you')) {
     const finalText = 
              identity[Math.floor(Math.random() * identity.length)];
     speech.text = finalText;
@@ -169,21 +169,21 @@ if (message.includes('magic')) {
 
 
  //RAkesh
- if(message.includes('rakesh')){
+ if(message.includes('rakesh' || 'Rakesh')){
      const finalText = 
      rakesh[Math.floor(Math.random()* rakesh.length)];
      speech.text = finalText;
  }
 
  //sanjay
- if(message.includes('sanjay')){
+ if(message.includes('sanjay' || 'Sanjay')){
      const finalText = 
      sanjay[Math.floor(Math.random()* sanjay.length)];
      speech.text = finalText;
  }
  //subhash
 
- if(message.includes('subhash')){
+ if(message.includes('subhash' || 'Subhash')){
      const finalText = 
      subhash[Math.floor(Math.random()* subhash.length)];
      speech.text = finalText;
