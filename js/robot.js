@@ -44,7 +44,7 @@ const identity = [
         'Im your personal assistance',
         'My name is Lucy Im virtual Voice assistance  I have no father and mother I was Created in 30th june 2020 by Ziaxdev and My only work is to help you and assist you as better as good',
         'Lucy is my name and I am your assistance',
-        'Who is me? ummm I am Lucy a virtual personal Assistance that can make your experiance better',
+        'Who is me? ummm I am Lucy a virtual personal Assistance that can make your experiance better'
         
 
 ];
@@ -54,8 +54,8 @@ const rakesh = [
     'Hello rakesh,I am lucy!',
     'Rakesh is a masculine given name of Indian origin. It is derived from the Sanskrit language.',
     'Jada gand na fulao Gand tod denge tumhari',
-    'Rakesh is a piece of shit',
-]
+    'Rakesh is a piece of shit'
+];
 
 //sanjay
 const sanjay = [
@@ -64,7 +64,7 @@ const sanjay = [
     'ho gaya tera ? Ab gand mara bosdike',
     'Tum Chutiya ho ',
     'HAhHAhahahHAhahaHAhahaahhaahahahahhahah'
-]
+];
 
 //subhash
 const subhash = [
@@ -73,7 +73,7 @@ const subhash = [
     'ho gaya tera ? Ab gand mara bosdike',
     'Tum Chutiya ho ',
     'Are kyu paka raha hai ?? padh le Bosdike'
-]
+];
 
 
 
