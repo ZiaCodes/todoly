@@ -126,7 +126,7 @@ if (message.includes('weather')) {
 
 //Identity of the Assistance
 
-if (message.includes('who you are')) {
+if (message.includes('who are you')) {
     const finalText = 
              identity[Math.floor(Math.random() * identity.length)];
     speech.text = finalText;
@@ -156,21 +156,21 @@ if (message.includes('magic')) {
 
 
  //RAkesh
- if(message.includes('rakesh')){
+ if(message.includes('rakesh' || 'Rakesh')){
      const finalText = 
      rakesh[Math.floor(Math.random()* rakesh.length)];
      speech.text = finalText;
  }
 
  //sanjay
- if(message.includes('sanjay')){
+ if(message.includes('sanjay' || 'Sanjay')){
      const finalText = 
      sanjay[Math.floor(Math.random()* sanjay.length)];
      speech.text = finalText;
  }
  //subhash
 
- if(message.includes('subhash')){
+ if(message.includes('subhash' || 'Subhash')){
      const finalText = 
      subhash[Math.floor(Math.random()* subhash.length)];
      speech.text = finalText;
