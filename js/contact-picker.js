@@ -11,6 +11,6 @@ async function getContact(){
     }
 }
 
-const btn = document.getElementById('contacts');
+const bttn = document.getElementById('contacts');
 
-btn.addEventListener('click',getContact);
+bttn.addEventListener('click',getContact);
