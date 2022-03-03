@@ -44,15 +44,27 @@
 </script>
     
 </head>
-<body>
+<body id="wind">
     <header class="navigation">
         <div class="logo">
             <img src="./img/logo/logo.png" width="150px" alt="logo">
         </div>
-        <div class="btn">
-            <p>Clear All</p>
+        <div style="width: 50px;height: 50px; margin-right: 8px;z-index: 99999999;display: flex;justify-content: center;align-items: center;" class="btn">
+            <i onclick="openMenu()" style="font-size: 35px;cursor: pointer;" class="fa-solid fa-arrow-down-short-wide"></i>
+            
         </div>
     </header>
+
+    <div class="menu-container" id="menu">
+        <div  class="menu">
+            <ul>
+                <li><i class="fa-solid fa-trash-can"></i></li>
+                <li onclick="generatePDF()" ><i  class="fa-solid fa-download"></i></li>
+                <a style="color: #fff;"  href="game"><li><i class="fa-brands fa-phoenix-framework"></i></li></a>
+                <li onclick="closeBtn()"><i  class="fa-solid fa-house-chimney"></i></li>           
+            </ul>
+        </div>
+    </div>
 
     <section class="container">
         <div class="heading-text">
@@ -70,7 +82,7 @@
 
     </section>
     <section class="ftr">
-        <p><i onclick="generatePDF()" class="fa-solid fa-file-arrow-down"></i></p>
+        <!-- <p><i onclick="generatePDF()" class="fa-solid fa-file-arrow-down"></i></p> -->
         <a href="#list-todo"><p><span class="task">0</span><i class="fa-solid fa-clipboard-list"></i></p></a>
         <a href="robot"><p><i class="fa-solid fa-robot"></i></p></a>
         <a href="music"><p><i class="fa-solid fa-music"></i></p></a>

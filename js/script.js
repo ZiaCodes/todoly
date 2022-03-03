@@ -1,8 +1,25 @@
 const inputBox = document.querySelector(".inputfield input");
 const addBtn = document.querySelector(".inputfield button");
 const todoList = document.querySelector(".todolist .box");
-const deleteAll = document.querySelector(".btn");
+const deleteAll = document.querySelector(".fa-trash-can");
 const shareBtn = document.querySelector('.share');
+
+function openMenu(){
+  let x = document.getElementById("menu");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
+}
+function closeBtn(){
+    document.getElementById("menu").style.display = "none";
+}
+
+// function lightMode(){
+//     document.getElementsById('wind').classList.add('lightmode');
+// }
 
 
 inputBox.onkeyup = () =>{

@@ -35,10 +35,23 @@
     <div class="logo">
         <img src="https://todoly1.netlify.app/img/logo/logo.png" width="150px" alt="logo">
     </div>
-    <div class="btn">
-        <p>Music</p>
-    </div>
+    <div style="width: 50px;height: 50px; margin-right: 8px;z-index: 99999999;display: flex;justify-content: center;align-items: center;" class="btn-1">
+      <i onclick="openMenu()" style="font-size: 35px;cursor: pointer;" class="fa-solid fa-arrow-down-short-wide"></i>
+  </div>
 </header>
+
+<div class="menu-container" id="menu">
+  <div  class="menu">
+      <ul>
+          <li><i class="fa-regular fa-square-plus"></i></li>
+          <li id="contacts" ><i class="fa-solid fa-paper-plane"></i></li>
+          <a style="color: #fff;" href="game"><li><i class="fa-brands fa-phoenix-framework"></i></li></a>
+          <li onclick="closeBtn()"><i  class="fa-solid fa-house-chimney"></i></li>         
+      </ul>
+  </div>
+</div>
+
+
 <!-- partial:index.partial.html -->
 <div class="wrapper" id="app">
       <div class="player">
@@ -164,6 +177,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script>
   <script  src="./js/music.js"></script>
   <script  src="./js/robot.js"></script>
+  <script src="./js/contact-picker.js"></script>
 
 </body>
 </html>

@@ -2,6 +2,19 @@ const btn = document.querySelector('.talk');
 const content = document.querySelector('.content');
 
 
+function openMenu(){
+    let x = document.getElementById("menu");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  
+  }
+  function closeBtn(){
+      document.getElementById("menu").style.display = "none";
+  }
+
 //Greeting messages
 const greetings = [
     'Im good you little piece of shit',
