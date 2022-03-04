@@ -26,6 +26,10 @@ body{
     position: fixed;
     z-index: 999999999;
 }
+.fa-arrow-down-short-wide:hover{
+    color: #ff0156;
+    transform: scale(1.1);
+}
 
 .pending{
     color:#ff0157;
