@@ -175,7 +175,47 @@ new Vue({
             source: "https://github.com/ZiaCodes/imge-container/raw/main/music/20.mp3",
             url: "https://www.youtube.com/watch?v=qqob4D3BoZc",
             favorited: false
-          }
+          },
+          {
+            name: "WAP feat. Megan Thee Stallion",
+            artist: "Cardi B",
+            cover: "https://pbs.twimg.com/media/EeoW7dVWAAA1ji4.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/22.mp3",
+            url: "https://www.youtube.com/watch?v=hsm4poTWjMs",
+            favorited: false
+          },
+          {
+            name: "Bloodstream",
+            artist: "Ed Sheeran",
+            cover: "https://i.scdn.co/image/ab67616d0000b27392b94e4a90718a1e532ea91a",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/21.mp3",
+            url: "https://www.youtube.com/watch?v=XIJHg1XWR7o",
+            favorited: false
+          },
+          {
+            name: "I Like It",
+            artist: "Cardi B, Bad Bunny & J Balvin",
+            cover: "https://i.scdn.co/image/ab67616d0000b27337422e424f7e93330acc5719",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/23.mp3",
+            url: "https://www.youtube.com/watch?v=xTlNMmZKwpA",
+            favorited: false
+          },
+           {
+            name: "New Rules",
+            artist: "Dua Lipa ",
+            cover: "https://i.pinimg.com/736x/37/f4/a0/37f4a056a9d332c5e2098a29a73c0579.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/24.mp3",
+            url: "youtube.com/watch?v=k2qgadSvNyU",
+            favorited: false
+          },
+           {
+            name: "Without Me",
+            artist: "Halsey",
+            cover: "https://i.ytimg.com/vi/oqmK3xLXw9c/maxresdefault.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/25.mp3",
+            url: "https://www.youtube.com/watch?v=ZAfAud_M_mg",
+            favorited: false
+          },
         ],
         currentTrack: null,
         currentTrackIndex: 0,
