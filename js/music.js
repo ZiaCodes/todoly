@@ -1,8 +1,7 @@
 /*
 design by Voicu Apostol.
 design: https://dribbble.com/shots/3533847-Mini-Music-Player
-I can't find any open music api or mp3 api so i have to download all musics as mp3 file.
-You can fork on github: https://github.com/muhammederdem/mini-player
+Connect with him : 
 */
 
 new Vue({
@@ -214,6 +213,22 @@ new Vue({
             cover: "https://i.ytimg.com/vi/oqmK3xLXw9c/maxresdefault.jpg",
             source: "https://github.com/ZiaCodes/imge-container/raw/main/music/25.mp3",
             url: "https://www.youtube.com/watch?v=ZAfAud_M_mg",
+            favorited: false
+          },
+            {
+            name: "PUBLIC - Make You Mine",
+            artist: "PUBLICTHEBAND",
+            cover: "https://assets.charmboard.com/images/w_1920,h_1080/x_241,y_134,w_1438,h_812,c_crop,f_auto,q_auto/h_541/v1591205439930/im/lc/2140145/ashley-puzemis-in-make-you-mine-publictheband-2019.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/26.mp3",
+            url: "https://youtu.be/nLnp0tpZ0ok",
+            favorited: true
+          }
+            {
+            name: "Happier",
+            artist: "Marshmello ft. Bastille",
+            cover: "https://virtualpiano.net/wp-content/uploads/2020/08/Happier-%E2%80%93-Marshmello-Best-Online-Piano-Keyboard-Virtual-Piano.jpg",
+            source: "https://github.com/ZiaCodes/imge-container/raw/main/music/27.mp3",
+            url: "https://youtu.be/m7Bc3pLyij0",
             favorited: false
           },
         ],
