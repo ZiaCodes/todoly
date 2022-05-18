@@ -216,8 +216,8 @@ new Vue({
             favorited: false
           },
           {
-            name: "PUBLIC - Make You Mine",
-            artist: "PUBLICTHEBAND",
+            name: "Make You Mine",
+            artist: "PUBLIC",
             cover: "https://assets.charmboard.com/images/w_1920,h_1080/x_241,y_134,w_1438,h_812,c_crop,f_auto,q_auto/h_541/v1591205439930/im/lc/2140145/ashley-puzemis-in-make-you-mine-publictheband-2019.jpg",
             source: "https://github.com/ZiaCodes/imge-container/raw/main/music/26.mp3",
             url: "https://youtu.be/nLnp0tpZ0ok",
