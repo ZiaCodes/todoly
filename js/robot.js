@@ -26,7 +26,165 @@ const greetings = [
     'The direction, opposite the way gravity pulls',
 ];
 
+//   #############################  Dark web series  ##################################
 
+
+const dark = [
+' The Stranger : Yesterday, today and tomorrow are not consecutive, they are connected in a never ending circle. Everything is connected. ',
+
+' Jonas : “Two days ago I kissed my aunt!!!” ',
+
+' Mikkel : “Good and evil are a question of perspective” ',
+
+' Noah : We are all full of sin. No pure human being exists. But no matter what we do, we never fall any lower than into God’s hands. ',
+
+' Fear is the worst enemy of progress. ',
+
+' Noah : Your pain defines who you are but it no longer holds power on you. ',
+
+' Dreams change. Other things become important. ',
+
+' Noah : “Most people are nothing but pawns on a chessboard led by an unknown hand” ',
+
+' The Stranger : We’re not free in what we do, because we’re not free in what we want. We can’t overcome what’s deep within us. ',
+
+' “The distinction between past, present and future is only a stubbornly persistent illusion ',
+
+' “Tick Tack. Tick Tack.” ',
+
+' The Stranger : If I now change my past, I will change who I am right now. ',
+
+' “The big things and the little things don’t follow the same rules. We won’t be able to change the grand scheme of things… but the details. We change a grain of sand, and with that, the whole world.” ',
+
+' “God has a plan for every human being.” ',
+
+' “That everything’s repeating That this has all happened before Like a massive déjĂ vu” ',
+
+' “Some people wander around their whole lives looking for a way out, but there’s only one path and it leads you ever deeper.” ',
+
+' “What if God doesn’t know what he’s doing? If the plan is wrong? If God is wrong?” ',
+
+' “You came in the door like thunder , Then hit the floor like thunder ,Laying me down you wonder , Shaking the walls like thunder” ',
+
+' “The world is full of such paradoxes we simply choose to ignore them most of the time” ',
+
+' “In the end we will all get just what we deserve.” ',
+
+' “In short, the god mankind has prayed to for thousands of years the god that everything is bound with, this god exists as nothing other than time itself.” ',
+
+' “There are moments when we must understand that the decisions we make influence more than just our own fates.” ',
+
+' “We’re wanderers in the darkness.” ',
+
+' “The pain is his vessel, desire his compass. It is all that man is capable of.” ',
+
+' “Fold out your hands Give me a sign Put down your lies Lay down next to me Don’t listen when I scream Bury your doubts and fall asleep For neither ever Nor never” ',
+
+' Adam: “Only when we’ve freed ourselves of emotion can we be truly free. Only when you’re willing to sacrifice what you hold dearest.” ',
+
+' Adam: “Man is a strange creature. All his actions are motivated by desire, his character forged by pain. As much as he may try to suppress that pain, to repress the desire, he cannot free himself from the eternal servitude to his feelings. For as long as the storm rages within him, he cannot find peace. Not in life, not in death. And so he will do what he must, day in, day out. The pain is his vessel, desire his compass. It is all that man is capable of.” ',
+
+' Michael : “The truth is a strange thing You can try to suppress it, but it will always find its way to the surface. We make a lie into our truth in order to survive. We try to forget, until we can’t anymore. We don’t even know half of the mysteries of this world. We’re wanderers in the darkness.” ',
+
+' Claudia : “There are moments when we must understand that the decisions we make influence more than just our own fates.” ',
+
+' Adam: “A man lives three lives. The first one ends with the loss of naivety, the second, with the loss of innocence and the third… with the loss of life itself. It’s inevitable that we go through all three stages.” ',
+
+' Adam: “No matter how much we fight it we are connected by our blood. We can feel estranged from our families and not understand what they do. And still, in the end we will do anything for them.” ',
+
+' Noah: God doesn’t have a plan. There is no plan at all. There’s nothing but chaos out there. Pain… and chaos! People are bad. Malicious, evil. Life is nothing but a spiral of pain. And the world is doomed to be destroyed. ',
+
+' H.G. Tannhaus : Black holes are considered to be the hellmouths of the universe. Those who fall inside disappear. Forever. But where to? What lies behind a black hole? Along with things, do space and time also vanish there? Or would space and time be tied together and be part of an endless cycle? What if everything that came from the past were influenced by the future? ',
+
+' Ines Kahnwald : Have you heard of Master Zhuang’s paradox? ‘I dreamt I was a butterfly. Now I’ve woken up and I no longer know if I’m a person who dreamed he’s a butterfly or if I’m a butterfly who’s dreaming it’s a person.’ ',
+
+' The Stranger : We trust that time is linear. That it proceeds eternally, uniformly. Into infinity. But the distinction between past, present and future is nothing but an illusion. Yesterday, today and tomorrow are not consecutive, they are connected in a never-ending circle. Everything is connected. ',
+
+' There is a missing child line, but the real question is not by whom and how, but when they were kidnapped! ',
+
+' if you love “Stranger Things”, “Mindhunter”, “The OA” and “True Detective” then you will like “Dark” ',
+
+' The series takes place in an imaginary place called “Winden”, which takes its name from “Winden im Elztal” surrounded by Black Forest, which is also the inspiration of Grimm Tales. ',
+
+' “Raider” chocolate, which is often tried to be shown to the audience in the series, is a truly existing brand. Since “Raider” has bad meanings in English, the company changed the name of the chocolate and made “Twix”. Yes, the name of the chocolate we know with the famous motto “Try both, choose your side” was formerly Raider. ',
+
+' There are more than 20 characters in the series and they are all interconnected at different times ',
+
+' All of those fascinating forest scenes in the series are shot in the area called ‘Kallinchen’ near Berlin ',
+
+' the skeleton costume that Mikkel wore is reference to Donnie Darko, … (2001). This reference has an important place since time travel is the main idea of both productions. ',
+
+' What is “Atomkraft, nein danke”? The text written on the shirt of one of the dead children we saw in the series is important at this point. The sentence is “Atomkraft, nein danke”, the slogan of the German anti-nuclear movement in the 1980s. ',
+
+' Why is the date of November 12 important? November 12, which is important in the series, is also a very important date in the Back to the Future (made in 1985). This date can also be said as a date when time travel decisions and actions emerge and characters encounter. ',
+
+' What does the phrase “Sic Mundus Creatus Est” mean? “And the world was created like this.” can be translated as. In a way, we can say “Beginning”. ',
+
+' "The distinction between past, present and future is only a stubbornly persistent illusion – Albert Einstein." ',
+
+' Yesterday, today and tomorrow are not consecutive, they are connected in a never-ending circle. Everything is connected. ',
+
+' There are things out there that our little minds will never comprehend. ',
+
+' God grant me the serenity to accept the things I cannot change, the courage to change the things I can and the wisdom to know the difference. ',
+
+' Fear is the worst enemy of progress. ',
+
+' "What we know is a drop, what we don’t know is an ocean" – Isaac Newton. ',
+
+' What if everything that came from the past was influenced by the future. ',
+
+' Everyone, whether the daughter of a king or not, has one foot in the shadow and the other in the light. ',
+
+' And so we all die alike. No matter into which house we are born. No matter which gown. Whether we grace the earth briefly or for a long time. I alone tie my bonds. Whether I have extended hands or slapped them. We all face the same end. Those above have long forgotten us. They do not judge us. In death, I am all alone. And my only judge is me. ',
+
+' Our thinking is shaped by dualism. Entrance, exit. Black, white. Good, evil. Everything appears as opposite pairs. But that’s wrong. ',
+
+' Dreams change. Other things become important. ',
+
+' Every one of our deeds is merely a response to a previous deed. ',
+
+' If we could see yesterday and tomorrow at the same time, the origin and the end, the entire universe in a single moment, we might finally find answers to the biggest questions of all. What is man? Where does he come from? What drives him? What is his purpose? ',
+
+' We’re not free in what we do because we’re not free in what we want. We can’t overcome what’s deep within us. ',
+
+' Beginning is the end and the end is the beginning. ',
+
+' “Have you heard of Master Zhuang’s paradox? I dreamt I was a butterfly. Now I’ve woken up and I no longer know if I’m a person who dreamed he’s a butterfly or if I’m a butterfly who’s dreaming it’s a person. — Ines Kahnwald, Dark, Season 1: Alpha and Omega ',
+
+' “There is no such thing as magic, just illusion. Things only change when we change them. But you have to do it skillfully, in secret. Then it seems like magic.”— Mikkel Nielsen, Dark, Season 1: Truths ',
+
+' “We are all full of sin. No pure human being exists. But no matter what we do, we never fall any lower than into Gods hands.”— Noah, Dark, Season 1: Everything is Now ',
+
+' “If I now change my past, I will change who I am right now.”— The Stranger, Dark, Season 1: Alpha and Omega ',
+
+' “Our thinking is shaped by dualism. Entrance, exit. Black, white. Good, evil. Everything appears as opposite pairs. But that’s wrong.”— H.G. Tannhaus, Dark, Season 1: As You Sow, so You Shall Reap ',
+
+' “Your pain defines who you are but it no longer holds power on you.”— Noah, Dark, Season 1: Alpha and Omega ',
+
+' “Were not free in what we do, because were not free in what we want. We cant overcome whats deep within us.”— The Stranger, Dark, Season 1: Alpha and Omega ',
+
+' “Black holes are considered to be the hellmouths of the universe. Those who fall inside disappear. Forever. But where to? What lies behind a black hole? Along with things, do space and time also vanish there? Or would space and time be tied together and be part of an endless cycle? What if everything that came from the past were influenced by the future?”— H.G. Tannhaus, Dark, Season 1: Double Lives ',
+
+' “God doesn’t have a plan. There is no plan at all. There’s nothing but chaos out there. Pain… and chaos! People are bad. Malicious, evil. Life is nothing but a spiral of pain. And the world is doomed to be destroyed.”— Noah, Dark, Season 1: Everything is Now ',
+
+' “Do you know what otoconia are? Tiny grains in the ear canals that help us differentiate between up and down. They can get confused. When the body rotates, for example. We lose our balance. With this boy, none of the grains are where they should be.”— Edda Heimann, Dark, Season 1: Lies ',
+
+' “H.G. Tannhaus: Will you tell me… what the future’s like? ',
+
+' The Stranger: I’m hoping that by tomorrow, it’ll already be different from today.”— The Stranger, Dark, Season 1: Alpha and Omega ',
+
+' “Now I have another Grandma, and she\'s the principal of my school. Her husband, who\'s fucking my mom, is looking for his son, who\'s my father! A few days ago I kissed my Aunt! And the crazy thing is... there\'s nothing wrong with any of them. They\'re okay. I\'m what\'s wrong! I just want everything to go back to normal.”— Jonas Kahnwald, Dark, Season 1: Alpha and Omega ',
+
+' “There was this sadness in his eyes. The kind you sometimes see in those who want to die, but life won\'t let them.”— Noah, Dark, Season 1: Alpha and Omega ',
+
+' “Why do we decide for one thing and against another? But does it matter whether the decision is based upon the consequence of a series of causal links? Or that instead it stems from an undefined feeling inside me? Perhaps everything in my life boils down to this one moment. That I’m part of this puzzle. One that I can neither understand nor influence.”— H.G. Tannhaus, Dark, Season 1: Alpha and Omega ',
+
+' “We trust that time is linear. That it proceeds eternally, uniformly. Into infinity. But the distinction between past, present and future is nothing but an illusion. Yesterday, today and tomorrow are not consecutive, they are connected in a never-ending circle. Everything is connected.”— The Stranger, Dark, Season 1: Secrets ',
+
+];
+
+//   ########################### End here (dark)  ####################################
 
 
 
