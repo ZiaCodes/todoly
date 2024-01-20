@@ -27,6 +27,79 @@ const greetings = [
 ];
 
 
+
+
+
+// ########################### game of throne   #################################
+
+const gameofthrones = [
+     ' "A mind needs books as a sword needs a whetstone, if it is to keep its edge." — Tyrion Lannister, A Game of Thrones ',
+
+' "A ruler who hides behind paid executioners soon forgets what death is." — Ned Stark, A Game of Thrones ' ,
+
+' "Bran thought about it. Can a man still be brave if hes afraid? That is the only time a man can be brave, his father told him." — Bran & Ned Stark, A Game of Thrones ',
+
+' "Death is so terribly final, while life is full of possibilities.” — Tyrion Lannister, A Game of Thrones ',
+
+' "Dont call me Lord Snow. The dwarf lifted an eyebrow. Would you rather be called the Imp? Let them see that their words can cut you and you will never be free of the mockery. If they want to give you a name take it make it your own. Then they cant hurt you with it anymore." — Jon Snow and Tyrion Lannister, A Game of Thrones ',
+
+' "Fear cuts deeper than swords." — Arya Stark, A Game of Thrones ' ,
+
+' "Laughter is poison to fear." — Catelyn Stark, A Game of Thrones ',
+
+' "Some old wounds never truly heal, and bleed again at the slightest word." — A Game of Thrones ',
+
+' "The common people pray for rain, healthy children, and a summer that never ends Ser Jorah told her. It is no matter to them if the high lords play their game of thrones, so long as they are left in peace. He gave a shrug. They never are." — Jorah Mormont and Daenerys Tagaryen, A Game of Thrones ',
+
+
+' "The man who passes the sentence should swing the sword. If you would take a mans life, you owe it to him to look into his eyes and hear his final words. And if you cannot bear to do that, then perhaps the man does not deserve to die." — Ned Stark, A Game of Thrones',
+
+' "The things we love destroy us every time, lad. Remember that." — Commander Mormont, A Game of Thrones ',
+
+' "They say night’s beauties fade at dawn, and the children of wine are oft disowned in the morning light." — Barristan Selmy, A Game of Thrones ' ,
+
+' "We are only human, and the gods have fashioned us for love. That is our great glory, and our great tragedy." — Aemon Targaryen, A Game of Thrones ' ,
+
+' "What do we say to the Lord of Death? Not today." — Syrio Forel, A Game of Thrones',
+
+' "What is honor compared to a womans love? What is duty against the feel of a newborn son in your arms . . . or the memory of a brothers smile? Wind and words. Wind and words. We are only human, and the gods have fashioned us for love. That is our great glory, and our great tragedy." — Master Aemon, A Game of Thrones',
+
+' "When the snows fall and the white winds blow, the lone wolf dies but the pack survives." — Ned Stark, A Game of Thrones',
+
+' "When you play the game of thrones, you win or you die. There is no middle ground.” — Cersei Lannister, A Game of Thrones',
+
+' "Why is it that when one man builds a wall, the next man immediately needs to know whats on the other side?" — Tyrion Lannister, A Game of Thrones ',
+
+' "Wind and words. We are only human, and the gods have fashioned us for love. That is our great glory, and our great tragedy." — Jon Snow, A Game of Thrones',
+
+' "Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness." — Tyrion Lannister, A Game of Thrones ',
+
+' "Winter is coming." — A Game of Thrones',
+
+' "I will hurt you for this. I dont know how yet, but give me time. A day will come when you think yourself safe and happy, and suddenly your joy will turn to ashes in your mouth, and youll know the debt is paid." — Tyrion Lannister, A Clash of Kings',
+
+' "People often claim to hunger for truth, but seldom like the taste when its served up." — Tyrion Lannister, A Clash of Kings',
+
+' "When you tear out a mans tongue, you are not proving him a liar, youre only telling the world that you fear what he might say." — Tyrion Lannister, A Clash of Kings',
+
+' "Every man must die, Jon Snow. But first he must live." — Ygritte, A Storm of Swords',
+
+' "Drifting snowflakes brushed her face as light as lover’s kisses, and melted on her cheeks. At the center of the garden, beside the statue of the weeping woman that lay broken and half-buried on the ground, she turned her face up to the sky and closed her eyes. She could feel the snow on her lashes, taste it on her lips. It was the taste of Winterfell. The taste of innocence. The taste of dreams." — A Storm of Swords',
+
+' "The way the world is made. The truth is all around you, plain to behold. The night is dark and full of terrors, the day bright and beautiful and full of hope. One is black, the other white. There is ice and there is fire. Hate and love. Bitter and sweet. Male and female. Pain and pleasure. Winter and summer. Evil and good.” She took a step toward him. “Death and life. Everywhere, opposites. Everywhere, the war.” — Melisandre, A Storm of Swords',
+
+' "We look up at the same stars and see such different things." — Jon Snow, A Storm of Swords',
+
+' "Needle was Robb and Bran and Rickon, her mother and her father, even Sansa. Needle was Winterfells grey walls, and the laughter of its people. Needle was the summer snows, Old Nans stories, the heart tree with its red leaves and scary face, the warm earthy smell of the glass gardens, the sound of the north wind rattling the shutters of her room. Needle was Jon Snows smile. He used to mess my hair and call me "little sister," she remembered, and suddenly there were tears in her eyes." — Arya Stark, A Feast for Crows',
+
+' "Who knows more of gods than I? Horse gods and fire gods, gods made of gold with gemstone eyes, gods carved of cedar wood, gods chiseled into mountains, gods of empty air . . . I know them all. I have seen their peoples garland them with flowers, and shed the blood of goats and bulls and children in their names. And I have heard the prayers, in half a hundred tongues. Cure my withered leg, make the maiden love me, grant me a healthy son. Save me, succor me, make me wealthy . . . protect me! Protect me from mine enemies, protect me from the darkness, protect me from the crabs inside my belly, from the horselords, from the slavers, from the sellswords at my door. Protect me from the Silence." He laughed. "Godless? Why, Aeron, I am the godliest man ever to raise sail! You serve one god, Damphair, but I have served ten thousand. From Ib to Asshai, when men see my sails, they pray." — Euron Greyjoy, A Feast For Crows',
+
+' "Chaos isn’t a pit. Chaos is a ladder. Many who try to climb it fail and never get to try again. The fall breaks them. And some are given a chance to climb, but they refuse. They cling to the realm or the gods or love. Illusions. Only the ladder is real. The climb is all there is." — Petyr Baelish, Season 3',
+
+' "Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night’s Watch, for this night and all the nights to come." — Vow of the Nights Watch, A Song of Ice and Fire',
+]; 
+
+
 //magic
 
 const magic = [
@@ -62,31 +135,6 @@ const identity = [
 
 ];
 
-//Rakesh
-const rakesh = [
-    'Hello rakesh,I am lucy!',
-    'Rakesh is a masculine given name of Indian origin. It is derived from the Sanskrit language.',
-    'Jada gand na fulao Gand tod denge tumhari',
-    'Rakesh is a piece of shit'
-];
-
-//sanjay
-const sanjay = [
-    'Hello Sanjay,I am lucy!',
-    'The name Sanjay is primarily a male name of Indian origin that means Victory Victory in battle or victory over judging self. A form of the name Sanjaya.',
-    'ho gaya tera ? Ab gand mara bosdike',
-    'Tum Chutiya ho ',
-    'HAhHAhahahHAhahaHAhahaahhaahahahahhahah'
-];
-
-//subhash
-const subhash = [
-    'Hello Subhash,I am lucy!',
-    'Name Subhash in the Indian origin, means Soft spoken; Eloquent. Name Subhash is of Indian origin and is a Boy name. People with name Subhash are usually Hindu by religion.',
-    'ho gaya tera ? Ab gand mara bosdike',
-    'Tum Chutiya ho ',
-    'Are kyu paka raha hai ?? padh le Bosdike'
-];
 
 
 
@@ -168,26 +216,41 @@ if (message.includes('magic')) {
  }
 
 
- //RAkesh
- if(message.includes('rakesh' || 'Rakesh')){
-     const finalText = 
-     rakesh[Math.floor(Math.random()* rakesh.length)];
-     speech.text = finalText;
+ //Dark quote
+ if (message.includes('dark')) {
+    const finalText = 
+             dark[Math.floor(Math.random() * dark.length)];
+    speech.text = finalText;
+
+     
  }
 
- //sanjay
- if(message.includes('sanjay' || 'Sanjay')){
-     const finalText = 
-     sanjay[Math.floor(Math.random()* sanjay.length)];
-     speech.text = finalText;
- }
- //subhash
 
- if(message.includes('subhash' || 'Subhash')){
-     const finalText = 
-     subhash[Math.floor(Math.random()* subhash.length)];
-     speech.text = finalText;
+if (message.includes('got')) {
+    const finalText = 
+    gameofthrones[Math.floor(Math.random() * gameofthrones.length)];
+    speech.text = finalText;     
  }
+
+ if (message.includes('game of thrones')) {
+    const finalText = 
+    gameofthrones[Math.floor(Math.random() * gameofthrones.length)];
+    speech.text = finalText;   
+ }
+ if (message.includes('Ice and fire')) {
+    const finalText = 
+    gameofthrones[Math.floor(Math.random() * gameofthrones.length)];
+    speech.text = finalText; 
+ }
+
+ if (message.includes('winter is coming')) {
+    const finalText = 
+    gameofthrones[Math.floor(Math.random() * gameofthrones.length)];
+    speech.text = finalText;     
+ }
+
+
+
 
     speech.volume = 2;
     speech.rate = 0.8;
